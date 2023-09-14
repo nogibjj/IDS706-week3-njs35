@@ -39,7 +39,7 @@ jobs:
       run: |
         git config --global user.name  "nickjstrauch@gmail.com"
         git config --global user.name "NickStrauch13"
-        git add  summary_stats.md size_relationship.png
-        git commit -m "Auto update summarystats.md and plot" || echo "No changes to commit"
+        git add  summary_stats.md
+        git commit -m "Auto update summarystats.md" || echo "No changes to commit"
         git push
 
